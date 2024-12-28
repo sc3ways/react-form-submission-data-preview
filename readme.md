@@ -1,0 +1,3 @@
+- npm create vite@latest react-form-submission
+- cd react-form-submission
+- npm install

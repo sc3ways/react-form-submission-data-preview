@@ -1,0 +1,26 @@
+body{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color:#243532;
+}
+h1{font-weight:700;}
+
+.forms-wrap{
+  padding:40px;
+  background-color:#fff;
+  border-radius: 20px;
+  box-shadow:5px 5px 20px #0005;
+}
+.forms-wrap h2{font-weight:700; margin-bottom:30px;}
+.forms-wrap .form-group{
+  margin-bottom: 20px;
+}
+.forms-wrap .form-control{
+  height:52px;
+  border-color:#0006;
+}
+.forms-wrap textarea.form-control{
+  height:90px;
+  resize: none;
+}
