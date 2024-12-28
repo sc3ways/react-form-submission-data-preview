@@ -1,4 +1,8 @@
+import { useContext } from "react";
+import { FormContext } from "../context/forms-context";
+
 const DataCard = ({ listItem }) => {
+  const { deleteItem } = useContext(FormContext);
   return (
     <div className="col-lg-6">
       <div className="card">
@@ -13,6 +17,12 @@ const DataCard = ({ listItem }) => {
           <li className="list-group-item">Dapibus ac facilisis in</li>
           <li className="list-group-item">Vestibulum at eros</li>
         </ul>
+        <button
+          className="btn btn-danger"
+          onClick={() => deleteItem(listItem.id)}
+        >
+          Delete
+        </button>
       </div>
     </div>
   );

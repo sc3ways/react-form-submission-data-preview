@@ -22,6 +22,7 @@ const FormInputs = () => {
       setFirstname("");
       setLastname("");
       setDiscreption("");
+      console.log(firstname, lastname, discreption);
       addNewData(firstname, lastname, discreption);
     }
   };
